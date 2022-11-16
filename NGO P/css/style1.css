@@ -1,0 +1,169 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgb(10, 6, 27);
+    /* position: fixed; */
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* asdfghjkl;kjhgfdsasdfghjbknlmnkjbhgfdszasdfghjbklmknjbhgfcxdszvaDZfxgchbjnkljhbgfdsaxSCDVFGHBJKJHGCFDSACVDFBGHJKLHGFXDSACDFGHJKLJBHGCFXZCVGBHNJKMLNJBHGFCD */
+
+.split {
+    width: 43%;
+}
+
+.left {
+    left: 0;
+display: inline-block;
+    background-color: white;
+}
+.center{
+    left: 43%;
+    width: 7%;
+    display: inline-block;
+        background-color: white;
+}
+.right {
+    right: 0;
+    display: inline-block;
+    background-color: white;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    height: auto;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+/* .prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+} */
+
+/* Position the "next button" to the right */
+/* .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+/* 
+/* Number text (1/3 etc) */
+/* .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+ 
+/* Container for image text */
+
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */ 
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 15.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.btnop{
+    width: 150px;
+    background-color: white;
+    color: black;
+    height: 37px;
+    border-radius: 20px;
+    
+}
+
+
+/* lsjedrftgyujhtgrfedwsqsedrftgyhujiuhytgrfedwsqsedrftgyhujyhtrfedwssedrftgyhujhygtfrdeswedrftgyhuhygtfrdesdrftgyhujhygtfrdesd */

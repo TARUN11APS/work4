@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style1.css">
+
+    <link rel="stylesheet" href="./css/slider.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#">
+            <p style="font-size: 30px; margin: 0%;  padding-right: 200px;">Buttistore</p>
+        </a>
+        <a href="#">
+            <p style="margin: 0%;"> <button
+                    style="font-size: 20px; background-color: rgb(191, 151, 77) ; border-radius: 100px; color: #ddd;">
+                    Shop</button></p>
+        </a>
+        <div class="dropdown">
+            <button class="dropbtn" style="font-size:20px;  margin: 0%;">Personalized Gifts
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <!-- <div class="dropdown-content">
+                <a href="#">Black and White to colourful painting</a>
+                <a href="#">Merge diffrent pictures in painting</a>
+                <a href="#">Link 3</a>
+            </div> -->
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" style="font-size:20px;  margin: 0%;"> Specials
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Black and White to colourful painting</a>
+                <a href="#">Merge diffrent pictures in painting</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" style="font-size:20px;  margin: 0%;">Bulk Order
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <!-- <div class="dropdown-content">
+                <a href="#">Black and White to colourful painting</a>
+                <a href="#">Merge diffrent pictures in painting</a>
+                <a href="#">Link 3</a>
+            </div> -->
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" style="font-size:20px;  margin: 0%;">Blog
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <!-- <div class="dropdown-content">
+                <a href="#">Black and White to colourful painting</a>
+                <a href="#">Merge diffrent pictures in painting</a>
+                <a href="#">Link 3</a>
+            </div> -->
+        </div>
+
+        <img src="./pic/Untitled.png" style=" height: 40px; padding-left: 13%  ;">
+
+    </div>
+
+
+
+    <img src="./pic/first.png" style="width: 100%;  " >
+    <section>
+
+        <div class="split left container">
+            <!-- slide show -->
+
+            <div class="mySlides">
+                <img src="https://buttistore-assets.b-cdn.net/digi-painting/DGPBL02.png" style="width:96%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-size-chart.png" style="width:96%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-2.png" style="width:96%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-3.png" style="width:96%">
+            </div>
+
+            <div class="mySlides">
+
+                <img src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-1.png" style="width:96%">
+            </div>
+
+            <div class="mySlides">
+
+                <img src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-2.png" style="width:96%">
+            </div>
+
+            <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a> -->
+
+            <!-- <div class="caption-container">
+                    <p id="caption"></p>
+                </div> -->
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="https://buttistore-assets.b-cdn.net/digi-painting/DGPBL02.png"
+                        style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-size-chart.png"
+                        style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-2.png"
+                        style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-3.png"
+                        style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-1.png"
+                        style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://buttistore-assets.b-cdn.net/digi-painting/dgp-feature-2.png"
+                        style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                </div>
+
+            </div>
+
+            <script src="./jss/slide.js">
+
+            </script>
+
+        </div>
+        
+        <div class="split right" style="padding-left: 10%; ">
+            <p style="font-size: 1cm ; display: inline-block; "> Diggi - painting &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small
+                    style="color:green ; font-size: 0.4cm ; "> 9.8 <b style="color: black;"> |</b><a
+                        style="color: red; text-decoration-line: none;"> 700+ coustomer revies </a></small>
+            </p>
+
+            <list>
+                <li>Made of pigment linl</li>
+                <li> Sunlight resistant</li>
+                <li> Priviewed for the approval</li>
+            </list>
+
+            <fieldset style="border:dashed; border-radius: 10px; ">
+                <legend style="color: red;"> Grab the best deal</legend>
+                <a style="color: blue ;"> 10% Extra Off on Orders above ₹1000; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <small
+                        style="color:red; ">DIWALI10</small> </a>
+                <br> <a style="color: blue ;"> 15% Extra Off on Orders above ₹1400 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <small
+                        style="color:red; ">DIWALI15</small> </a>
+                <br><a style="color: blue ;"> Free Shipping &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <small
+                        style="color:red; "></small> </a>
+            </fieldset>
+
+            <p style="font-size: 30px;  margin: 0%; padding-top: 0%; " > Frame Size &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a
+                    style="font-size: smaller ; color: blue;"><small>Compare Sizes</small></a> </p>
+            <div>
+                <button type="button" class="btnop" onclick="cchange(this)" onmouseleave="bchannge(this)">
+                    Softcopy<br>(on email)</button>
+                <button type="button" class="btnop" onclick="ccchange(this)" onmouseleave="bchannge(this)"> <b>A5</b>
+                    <br>(on email)</button>
+                <button type="button" class="btnop" onclick="ccchange(this)" onmouseleave="bchannge(this)">
+                    <b>A4</b><br>(on email)</button><br><br>
+                <button type="button" class="btnop" onclick="ccchange(this)" onmouseleave="bchannge(this)">
+                    <b>A3</b><br>(on email)</button>
+                <button type="button" class="btnop" onclick="ccchange(this)" onmouseleave="bchannge(this)">
+                    <b>A2</b><br>(on email)</button>
+                <button type="button" class="btnop" onclick="ccchange(this)" onmouseleave="bchannge(this)">
+                    <b>A1</b><br>(on email)</button><br><br>
+                <button type="button" class="btnop" onclick="ccchange(this)" onmouseleave="bchannge(this)">
+                    <b>A0</b><br>(on email)</button>
+                <br><br>
+                <p id="ob" style="font-size: .7cm ;  margin: 0%; padding-top: 0%;  display: none;  color: blue;" onclick="db()"> Choose frame type >> </p>
+                <button type="button" id="db1"  style="display: none;" class="btnop" onclick="change(this)" onmouseleave="bchannge(this)">
+                    Textured Black</button>
+                <button type="button" id="db2"   style="display: none;" class="btnop" onclick="change(this)" onmouseleave="bchannge(this)">
+                    Classic Brown </button>
+
+                    <p  style="font-size: .7cm ;  margin: 0%; padding-top: 0%;   "> No. of pets and peoples in your photo:  </p>
+                    <button type="button" class="btnop" onclick="change(this)" onmouseleave="bchannge(this)"> 1 Person</button>
+                    <button type="button" class="btnop" onclick="change(this)" onmouseleave="bchannge(this)"> 2 Person</button>          
+                    <button type="button" class="btnop" onclick="change(this)" onmouseleave="bchannge(this)"> 3 Person</button>
+            </div>
+
+            <script src="./jss/change.js"></script>
+            <p style="font-size: .7cm ;  margin: 0%; padding-top: 0%; "> Process & Delivery Priority</p>
+            <button type="button" class="btnop" onclick="change(this)" onmouseleave="bchannge(this)"> Standard</button>
+            <button type="button" class="btnop" onclick="change(this)" onmouseleave="bchannge(this)"> Express</button>
+<div style="align-items: center; padding-left: 20%;"><br>
+            <button type="button" style="color: black ; background-color: rgb(232, 171, 128);  width: 6cm ; height:60px  ; border-radius: 40px;"> Buy now</button>
+            </div>
+            <p>
+              <b>  ABOUT THIS ITEM </b> <br>
+<small>One Person Handmade Painting in A4 Size Canvas with Textured Black Frame in Express Priority
+    Painting on canvas entirely by hand with long lasting acrylic paints, by our expert artists. After customer’s preview and approval, the painting is varnished, then packed and shipped. All India Free delivery.</small>
+            </p>
+        </div>
+
+    </section>
+<br><br>
+    <h1 style="text-align: center; text-decoration: underline; color: black;">India’s; <b style="color: orange">#1 Art Work Company
+    </b></h1>
+    <img src="./pic/picsecone.png" style="width: 100%; overflow-x: hidden;">
+<!--     
+    <div id = "smain">
+        <div class='container34'>
+          <div class='img12 background-img12'></div>
+          <div class='img12 foreground-img12'></div>
+          <input type="range" min="1" max="100" value="50" class="slider23" name='slider' id="slider">
+          <div class='slider-button'></div>
+        </div>
+        <script src="./jss/slider.js"></script>
+          </div> -->
+          <img src="./pic/picsectwo.png" style="width: 100%; overflow-x: hidden;">
+    <div style="text-align: center;">
+        <br>
+        <br>
+        <h1>MAKE LOVED ONES FEEL EVEN MORE SPECIAL
+        </h1>
+        <small><br><br>
+            The best gift one can give to their loved ones is one of our custom handmade paintings.<br>
+             Whatever the occasion, your loved ones will be thrilled by these special presents.<br>
+              Additionally, our original paintings are wonderful home accents that can liven up any space.<br>
+               It enhances the appeal of the wall interiors in the living room or bedroom.
+        </small>
+        <br><br>
+    </div>
+    <img src="./pic/picsectwo2.png" style="width: 100%; overflow-x: hidden;">
+    <div style="text-align: center;">
+    <h1>CHOOSE YOUR PERFECT FRAME SIZE- SIZES
+    </h1>
+    <small>
+        These paintings come in multiple frame sizes shown here. Choose the size that you find perfect. <br>
+        You can choose in either portrait (shown here) or landscape (turn 90 degrees) orientation.
+    </small>
+    <br><br>
+    <img src="./pic/picsec3.png" style="width: 100%; overflow-x: hidden;">
+    <img src="./pic/picsec31.png" style="width: 100%; overflow-x: hidden;">
+    <img src="./pic/picsec32.png" style="width: 100%; overflow-x: hidden;">
+
+    </div>
+    <div style="text-align: center;">
+        <h1>PERFECTLY DETAILED FINISHING
+        </h1>
+        <small>
+            Every element in a photograph is significant. Our talented artists are aware of this and appreciate it.<br>
+             We give considerable care and attention to detail while creating these custom paintings of pictures.
+
+
+        </small>
+        <br><br>
+        <img src="./pic/picsiuytrew.png" style="width: 100%; overflow-x: hidden;">
+        </div>
+<br><br>
+        <div style="background-color: lightgray; text-align: center; padding-top: 3cm; padding-bottom: 3cm;">
+            <img src="./pic/picrt.png">
+        <h1>
+            SUPER Express
+        </h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, nihil?
+        <br>
+        gypsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae.
+    </p>
+<button style="color: black; background-color: orangered; height: 40px; width: 320px; border-radius: 20px; " > <b>Check Serviacibility</b></button></div>
+  <div>
+<div class="split left" >
+<h1 style="color: red; float: right ;">
+    WE ARE HAPPY TO HELP YOU
+</h1>
+<p style="float: right ;">
+    From assisting you in placing the order, through design & production,<br>
+     till the product reaches your doorstep, we are here to help you at every<br>
+      step in this journey.
+</p>
+</div>
+<div class="center">
+
+</div>
+<div class=" split right " >
+    <br><br><br><br><br>
+    <b style="color: red;">+</b><b>1. What priority should I choose for delivery?</b><br><br>
+    <b style="color: red;">+</b> <b>2. Is it possible to request an early delivery?</b><br><br>
+    <b style="color: red;">+</b><b>3. How can I get an order status update?    </b><br><br>
+    <b style="color: red;">+</b>  <b>4. Will I be able to preview the finished product before it is shipped?</b><br><br>
+    <b style="color: red;">+</b>  <b>5. Can I include a quote with my art purchase? Is it going to be charged?</b><br><br>
+    <b style="color: red;">+</b>  <b>6. How do you choose color tones and backgrounds for images?</b><br><br>
+    <b style="color: red;">+</b> <b>7. Is it possible to add further customization to my order?</b><br><br>
+    <b style="color: red;">+</b> <b>8.Can I customize my order’s color tone and background? How much would it cost?</b><br><br>
+    <b style="color: red;">+</b>   <b>9. What is digital painting and how is it different from traditional painting?</b><br><br>
+</div>
+</div>
+<section>
+    <div style="color: white; background-color: rgb(15, 7, 37);" ><br><br>
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right;"><b>SITE MAP</b><br></p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: left;"><b>PRODUCTS</b><br></p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left;"><b>Join Our Family</b><br></p></div>
+
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right;">Home</p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: left;">Digi painting</p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left;">Subscribe to our newsletter and </p></div>
+ 
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right;">Blog</p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: left;">Digi merge painting</p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left;">be among the first to hear about </p></div>
+         
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right;">Terms and Conditions<br></p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: left;">Old picture Digi painting</p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left;"> new deals and special offers.</p></div>
+
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right;">Privacy Policy</p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: left;">Handmade painting</p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left;"> </p></div>
+
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right;"></p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: left;">Handmade pencil sketch</p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left;">________________________</p></div>
+
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="text-align: center;"></p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: right;"></p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: right;"></p></div>
+
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right; color: red ; font-size: large;"><b>+91 7795117716</b></p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: right;"></p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left; font-size: large;"><b> Follow us</b></p></div>
+
+        <div style="left: 0; display: inline-block; width: 20%;"><p style="float: right; color: rgb(174, 169, 169) ; font-size: large;"><b>info@buttistore.com</b></p></div>
+        <div style="left: 20%; display: inline-block; width: 16%;"></div>
+        <div style="left: 36; display: inline-block; width: 20%;"><p style="float: right;"></p></div>
+        <div style="left: 56%; display: inline-block; width: 6%;"><p></p></div>
+        <div style="left: 62%; display: inline-block; width: 20%;"><p style="float: left; font-size: large;"><b> </b></p></div>
+        <br><br><div><br><br></div>
+    </div>
+</section>
+<img src="./pic/last.png" style="width: 100%; overflow-y: hidden;">
+
+</body>
+
+</html>
